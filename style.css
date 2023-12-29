@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+body {
+    /* font-family: 'JetBrains Mono', monospace; */
+    font-family: 'Open Sans', sans-serif;
+    
+    background-color: #2C2B3D;
+}
+
+.page {
+    border: 1px green solid;
+    width: 1280px;
+
+    margin: 71px auto 235px;
+    
+}
+
+
+
+/* cabeçalho */
+
+header {
+    border: 1px red solid ;
+    margin-top: 6px;
+    padding-left: 2px;
+}
+
+nav { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+ul {
+    
+    display: flex;
+    list-style: none;
+    gap: 64px;
+}
+
+ul li a {
+
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+
+
+main {
+    border: 1px yellow solid;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-around;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+/* Conteudo PRINCIPAL */
+
+section h1 {
+    font-family: 'JetBrains Mono', monospace;
+    color: #FFF;
+    
+    line-height: 40px;
+    width: 361px;
+    
+    text-align: center;
+    
+}
+
+section span {
+    color:#00BFA6;
+    width: 248px;
+}
+
+section p , span {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+p {
+
+   border: 1px darkblue solid;
+
+   color: #c2c2c2;
+   line-height: 28px;
+   width: 604px; 
+}
+
+p span {
+    text-align: center;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+span {
+    color: #00BFA6;
+    font-weight: bold;
+}
+    
+strong {
+    color: #c2c2c2;
+    font-weight: bold;
+}
+
+/* RODAPÉ */
+
+footer {
+    margin: 157px 356px 23px;
+    width: 568px;
+    height: 55px;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+footer a {
+    color: #FFF;
+    
+}
+
+#line {
+    border: 1px #00BFA6 solid;
+    width: 568px;
+    height: 1px;
+
+    margin-bottom: 27px;
+}
+
+#cadeadoinf {
+    position: fixed;
+    bottom: 0;
+    left: 0;    
+
+   margin-top: auto;
+   margin-right: auto;
+   margin-bottom: 20px;   
+   margin-left: 20px;
+}
