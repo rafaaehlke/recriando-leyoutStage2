@@ -14,7 +14,7 @@ body {
 
 .page {
     border: 1px green solid;
-    width: 1280px;
+    width: 1092px;
 
     margin: 71px auto 235px;
     
@@ -55,9 +55,8 @@ ul li a {
 main {
     border: 1px yellow solid;
     display: flex;
-    flex-direction: center;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
 
     margin-top: 100px;
 
