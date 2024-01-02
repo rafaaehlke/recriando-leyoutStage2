@@ -15,7 +15,7 @@ body {
 }
 
 .page {
-    border: 1px green solid;
+    /* border: 1px green solid; */
     width: 1092px;
 
     margin: 71px auto 235px;
@@ -27,7 +27,7 @@ body {
 /* cabeçalho */
 
 header {
-    border: 1px red solid ;
+    /* border: 1px red solid ; */
     margin-top: 6px;
     padding-left: 2px;
 }
@@ -55,7 +55,7 @@ ul li a {
 
 
 main {
-    border: 1px yellow solid;
+    /* border: 1px yellow solid; */
     display: flex;
     align-items: center;
     justify-content: space-between;
