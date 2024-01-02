@@ -103,6 +103,12 @@ strong {
     font-weight: bold;
 }
 
+
+a:hover {
+    color: #c2c2c2;
+    transition: 0.5s;
+    opacity: 1;
+}
 /* Final Conteudo PRINCIPAL */
 
 /* RODAPÉ */
